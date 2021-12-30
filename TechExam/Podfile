@@ -1,0 +1,22 @@
+platform :ios, '9.0'
+
+target 'TechExam' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Charts'
+  pod 'Firebase/Database'
+
+  # Pods for TechExam
+
+  target 'TechExamTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TechExamUITests' do
+    # Pods for testing
+  end
+
+end
