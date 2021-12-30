@@ -31,6 +31,8 @@ _It was built with MVP architecture but adding a coordinator to manage the navig
 ## Developer ✒️
 
 * **Juan Carlos Carrera Reyes**
+* 
+## Answers ✒️
 * 6 - Es un proceso que administra un conjunto de vistas y crea la interfaz de usuario de la aplicación. Se coordina con objetos de modelo y otros objetos de controlador. Básicamente, juega un papel combinado tanto para los objetos de vista como para los objetos de controlador.
 * 7 - En el ciclo de vida de una aplicación de iOS, lo primero que se llama es: willFinishLaunchingWithOptions. Este método está diseñado para la configuración inicial de la aplicación. Los guiones gráficos ya se han cargado en este punto, pero aún no se ha producido la restauración del estado.
 En el Lanzamiento se llaman los siguientes métodos: 
